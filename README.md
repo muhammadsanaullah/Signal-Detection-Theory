@@ -1,2 +1,11 @@
 # Signal-Detection-Theory
 A working MATLAB model to implement SDT that works to optimally detect a signal using purely statistical methods.
+
+This project will mostly concern the use of signal detection theory to analyze data generated in psychophysical and hypothetical neurophysiological experiments. Signal Detection Theory (SDT) represents a way to optimally detect a signal in purely statistical terms without decision or cognitive processes. For this project we illustrate the application of SDT in the Psychophysics experiment done previously i.e., reporting the presence or absence of a faint, barely visible dot of light.
+Here, in addition to the threshold, which is determined by the physical properties of
+the stimuli and the physiological properties of the biological substrate, there are cognitive
+considerations. In particular, observers have a criterion by which they judge (and report)
+whether or not a signal was present. This criterion can be made sense of a distinguishing factor between two different types of data observations; in this case, the dot being absent or present. Such a measure allows to understand the intrinsic and “hidden” weights that drive certain neurons to act the way they do. SDT helps provide some statistical measure to this understanding through different means of mathematical and probabilistic modelling explained with the experiment model below.
+
+
+For this experiment model we repeat the experiment from the Psychophysics chapter: detecting a faint stimulus in the dark. The method of constant stimuli will be adopted in which the participant will observe a dark screen and determine whether he sees the stimulus or not. The brightness level of the stimulus helps determine the threshold at which the participant can distinguish between being able to see the stimulus or not. If the participant correctly identifies the presence of the stimulus when it is present it will be recorded as a “hit”, otherwise it is recorded as a “miss”. The participant answers if stimulus is present or absent and then answers a level of certainty that provides a quantifiable measure of his assurance or confidence in his answers. This certainty and the frequency of correct answers are plotted for two distributions: hits and misses, together these form to serve the purpose of our signal detection analysis
